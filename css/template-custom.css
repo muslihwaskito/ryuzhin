@@ -1,0 +1,82 @@
+/*===========================================*/
+/*	DESKTOP LAYOUT 
+/*===========================================*/
+
+
+/*@media (min-width: 1200px) {
+	
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+@media (min-width: 992px) {
+		
+}*/
+
+/*===========================================*/
+/*	MOBILE & TABLET COMMON
+/*===========================================*/
+/*@media (min-width: 200px) and (max-width: 991px) {
+	
+}*/
+
+
+/*===========================================*/
+/*	TABLET
+/*===========================================*/
+/*@media (min-width: 768px) and (max-width: 991px) {
+
+}*/
+
+
+/*===========================================*/
+/*	MOBILE
+/*===========================================*/
+/*@media (min-width: 200px) and (max-width: 767px) {
+	
+}
+@media (min-width: 600px) and (max-width: 767px) {
+}
+@media (min-width: 480px) and (max-width: 599px) {
+
+}
+@media (min-width: 200px) and (max-width: 479px) {
+
+}*/
+
+.videocontainer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.boxx {
+    color: #fff;
+    background: #09003e;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    -webkit-box-shadow: -5px 2px 22px 0 rgb(0 0 0 / 10%);
+    box-shadow: -5px 2px 22px 0 rgb(0 0 0 / 10%);
+    position: relative;
+    margin: 10px 0px 10px 5px;
+    border: 4px solid #dedede;
+}
+
+.boxx:hover {
+    background: #0594b8;
+    border: 4px solid #0594b8;
+    color: #fff;
+}
